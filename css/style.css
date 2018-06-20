@@ -3,10 +3,30 @@ h1 {
 }
 
 #navigation {
+    width: 100%;
+    position: fixed;
+    padding: 10px;
     background-color: crimson;
 }
 
+#navigation > ul {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+
+#navigation > ul > li {
+    margin-right: 250px;
+    display: inline;
+}
+
+#navigation .container {
+    margin: 0 auto;
+}
+
+
 #header {
+    padding: 50px;
     background-color: crimson;
 }
 
