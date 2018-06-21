@@ -6,7 +6,9 @@ h1 {
     width: 100%;
     position: fixed;
     padding: 10px;
-    background-color: crimson;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Russo One', sans-serif;
+    margin-bottom: 40%;
 }
 
 #navigation > ul {
@@ -16,7 +18,7 @@ h1 {
 }
 
 #navigation > ul > li {
-    margin-right: 250px;
+    margin: 75px;
     display: inline;
 }
 
@@ -26,16 +28,19 @@ h1 {
 
 
 #header {
+    font-family: 'Noto Serif', serif;
     padding: 50px;
-    background-color: crimson;
+    background-color: #840008;
+    width: auto;
 }
 
 #content {
-    background-color: crimson;
+    background-color: #ffffff;
 }
 
+
 #footer {
-    background-color: crimson;
+    background-color: #772626;
 }
 
 #footer > ul {
@@ -48,3 +53,11 @@ h1 {
     margin-right: 20px;
     display: inline;
 }
+
+img {
+    width: 100%;
+    max-width: 500px;
+    margin: 25%;
+    padding: 10%;
+}
+
