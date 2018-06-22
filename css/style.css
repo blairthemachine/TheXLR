@@ -2,11 +2,21 @@ h1 {
     color: crimson;
 }
 
+a:link {
+     color:  white;
+}
+
+a:visited {
+    color: white;
+}
+
 #navigation {
     width: 100%;
     position: fixed;
     padding: 10px;
-    background-color: rgb(0, 0, 0);
+    top: 0%;
+    right: 0%;
+    background-color: rgba(0, 0, 0, 0.568);
     font-family: 'Russo One', sans-serif;
     margin-bottom: 40%;
 }
@@ -18,14 +28,27 @@ h1 {
 }
 
 #navigation > ul > li {
-    margin: 75px;
+    margin: 100px;
     display: inline;
+}
+
+#navigation a {
+    margin: -2%;
+    left: 2%;
 }
 
 #navigation .container {
     margin: 0 auto;
 }
 
+#navigation a + img {
+    width: 10%;
+    background-image: none;
+}
+
+#navigation #homelogo {
+    width: 1%;
+}
 
 #header {
     font-family: 'Noto Serif', serif;
@@ -44,14 +67,14 @@ h1 {
 }
 
 #footer > ul {
-    margin: 0;
+    margin: 2px;
     padding: 10px;
     list-style: none;
 }
 
 #footer > ul > li {
     margin-right: 20px;
-    display: inline;
+    font-family: 'Russo One', sans-serif;
 }
 
 img {
@@ -61,3 +84,6 @@ img {
     padding: 10%;
 }
 
+#social {
+    width: 2%;
+}
