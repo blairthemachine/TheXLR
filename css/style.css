@@ -9,21 +9,25 @@ a:link {
 a:visited {
     color: white;
 }
-
+/* move nav bar*/
 #navigation {
     width: 100%;
     position: fixed;
     padding: 10px;
-    top: 0%;
+    top: -5%;
     right: 0%;
-    background-color: rgba(32, 31, 31, 0.932);
+    background-color: rgba(26, 2, 2, 0.911);
     font-family: 'Russo One', sans-serif;
     margin-bottom: 40%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
 }
 
 #navigation > ul {
-    margin: 0;
-    padding: 10px;
+    margin: 0%;
+    padding: 0px;
     list-style: none;
 }
 
@@ -35,13 +39,16 @@ a:visited {
 
 #homelogo {
     width: 80px;
+    box-sizing: border-box;
 }
 
 #header {
     font-family: 'Noto Serif', serif;
-    padding: 50px;
+    padding: 20px;
     background-color: #840008;
     width: auto;
+    position: relative;
+    top: 125px;
 }
 
 #content {
