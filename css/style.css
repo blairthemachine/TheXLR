@@ -16,7 +16,7 @@ a:visited {
     padding: 10px;
     top: 0%;
     right: 0%;
-    background-color: rgba(0, 0, 0, 0.568);
+    background-color: rgba(32, 31, 31, 0.932);
     font-family: 'Russo One', sans-serif;
     margin-bottom: 40%;
 }
@@ -28,26 +28,13 @@ a:visited {
 }
 
 #navigation > ul > li {
-    margin: 100px;
+    margin-left: 180px;
     display: inline;
 }
 
-#navigation a {
-    margin: -2%;
-    left: 2%;
-}
 
-#navigation .container {
-    margin: 0 auto;
-}
-
-#navigation a + img {
-    width: 10%;
-    background-image: none;
-}
-
-#navigation #homelogo {
-    width: 1%;
+#homelogo {
+    width: 80px;
 }
 
 #header {
