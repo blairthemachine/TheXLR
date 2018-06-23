@@ -23,8 +23,10 @@ a:visited {
 
 #navigation li {
     display: inline;
-    margin: 25px 25px 25px 25px;
-    left: 250%;
+    margin: 25px
+
+    
+
 }
 
 
