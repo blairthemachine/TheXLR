@@ -13,15 +13,14 @@ a:visited {
 #navigation {
     width: 100%;
     position: fixed;
-    padding: 10px;
-    top: -5%;
+    padding: -50px;
+    top: 10%;
     right: 0%;
-    background-color: rgba(26, 2, 2, 0.911);
+    background-color: rgba(43, 43, 43, 0.911);
     font-family: 'Russo One', sans-serif;
     margin-bottom: 40%;
     display: flex;
     align-items: center;
-    justify-items: center;
 
 }
 
@@ -38,21 +37,28 @@ a:visited {
 
 
 #homelogo {
-    width: 80px;
-    box-sizing: border-box;
+    width: 10px;
+    position: fixed
 }
 
 #header {
     font-family: 'Noto Serif', serif;
-    padding: 20px;
+    padding: 0px;
     background-color: #840008;
     width: auto;
-    position: relative;
-    top: 125px;
+    top: 1000%;
+}
+
+#header img {
+    width: 100%;
+    max-width: 20px;
+    margin: 25%;
+    padding: 10%;
 }
 
 #content {
     background-color: #ffffff;
+    top: 50px;
 }
 
 
@@ -66,18 +72,16 @@ a:visited {
     list-style: none;
 }
 
-#footer > ul > li {
+#footer > div > a {
     margin-right: 20px;
     font-family: 'Russo One', sans-serif;
 }
 
-img {
-    width: 100%;
-    max-width: 500px;
+
+#social img{
+    left: 50px;
+    display: inline;
+    max-width: 20px;
     margin: 25%;
     padding: 10%;
-}
-
-#social {
-    width: 2%;
 }
