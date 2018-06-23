@@ -13,57 +13,49 @@ a:visited {
 #navigation {
     width: 100%;
     position: fixed;
-    padding: -50px;
-    top: 10%;
+    top: 14%;
     right: 0%;
     background-color: rgba(43, 43, 43, 0.911);
     font-family: 'Russo One', sans-serif;
-    margin-bottom: 40%;
     display: flex;
-    align-items: center;
-
+    text-align: center;
 }
 
-#navigation > ul {
-    margin: 0%;
-    padding: 0px;
-    list-style: none;
-}
-
-#navigation > ul > li {
-    margin-left: 180px;
+#navigation li {
     display: inline;
+    margin: 25px 25px 25px 25px;
+    left: 250%;
 }
 
 
-#homelogo {
-    width: 10px;
-    position: fixed
+#homelogo a {
+    width: 120px;
+    position: fixed;
 }
 
 #header {
     font-family: 'Noto Serif', serif;
     padding: 0px;
-    background-color: #840008;
-    width: auto;
-    top: 1000%;
+    background-color: #ffffff;
+    width: 100%;
+    top: 0%;
 }
-
+/* To Move Logo */
 #header img {
     width: 100%;
-    max-width: 20px;
-    margin: 25%;
+    margin: 7%;
     padding: 10%;
 }
 
 #content {
     background-color: #ffffff;
-    top: 50px;
+    width: 50%;
+    padding: 25% 25% 25% 25%;
 }
 
 
 #footer {
-    background-color: #772626;
+    background-color: #0843e6;
 }
 
 #footer > ul {
@@ -76,12 +68,14 @@ a:visited {
     margin-right: 20px;
     font-family: 'Russo One', sans-serif;
 }
-
-
-#social img{
-    left: 50px;
+/* move social icons */
+#social {
     display: inline;
-    max-width: 20px;
-    margin: 25%;
-    padding: 10%;
+    padding-right: 600px;
+}
+
+#social img {
+    width: 18px;
+    float: right;
+    text-align: right;
 }
