@@ -25,7 +25,9 @@ a:visited {
 
 #navigation li {
     display: inline;
-    margin: 25px
+    margin: 25px;
+    justify-content: center;
+    
 }
 
 
@@ -50,34 +52,30 @@ a:visited {
 }
 /*move the paragraphs*/
 #content {
-    background-color: #ffffff;
+    background-color: #5c5c5c;
+    margin: 0 auto;
     width: 100%;
-    padding: 25% 25% 25% 25%;
+    padding: 10% 10% 10% 10%;
 }
 
 
 #footer {
     background-color: #0843e6;
-}
-
-#footer > ul {
-    margin: 2px;
-    padding: 10px;
-    list-style: none;
-}
-
-#footer > div > a {
-    margin-right: 20px;
     font-family: 'Russo One', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 /* move social icons */
 #social {
     display: inline;
-    padding: 300px;
+    padding: 275px;
 
 }
-
+/* spacing Social icons*/
 #social img {
     width: 40px;
     float: right;
+    margin: 10px; 
 }
