@@ -45,6 +45,12 @@ body {
     text-align: center;
 }
 
+#navigation ul li a {
+    display: block;
+    padding: 0 30px;
+    text-decoration: none;
+}
+
 #navigation ul li a img {
     width: 20px;
 }
