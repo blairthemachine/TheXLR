@@ -3,33 +3,57 @@ h1 {
 }
 
 a:link {
+    text-decoration: none;
      color:  white;
 }
 
 a:visited {
     color: white;
 }
+
+body {
+    display: grid;
+    grid-template-rows: min-content min-content auto min-content;
+    grid-template-areas: 
+    "navitgation"
+    "header"
+    "content"
+    "footer";
+    min-height: 100vh;
+}
+
 /* move nav bar*/
-#navigation {
-    width: 100%;
+#navigation  {
     position: fixed;
-    top: 14%;
-    right: 0%;
-    left: 0%;
-    bottom: 80%;
-    background-color: rgba(43, 43, 43, 0.911);
+    background-color: rgba(17, 14, 14, 0.959);
     font-family: 'Russo One', sans-serif;
+    width: 100%;
+    padding: 0 0 0 100;
+    transition: .5s;
+    top: 10%;
+    box-sizing: border-box;
+}
+
+/* to move the letters and social logos*/
+#navigation > ul {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
     text-align: center;
 }
 
-#navigation li {
-    display: inline;
-    margin: 25px;
-    justify-content: center;
-    
+#navigation ul li a img {
+    width: 20px;
 }
 
+#navigation ul li a:hover {
+    display: block;
+    background: #C9012F;
+    color: white;
+}
 
 #homelogo a {
     width: 120px;
@@ -65,17 +89,4 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-/* move social icons */
-#social {
-    display: inline;
-    padding: 275px;
-
-}
-/* spacing Social icons*/
-#social img {
-    width: 40px;
-    float: right;
-    margin: 10px; 
 }
