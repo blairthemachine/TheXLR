@@ -24,42 +24,47 @@ body {
 
 /* move nav bar*/
 #navigation  {
-    position: fixed;
+    position: sticky;
     background-color: rgba(17, 14, 14, 0.959);
     font-family: 'Russo One', sans-serif;
-    width: 100%;
-    padding: 0 0 0 100;
     transition: .5s;
-    top: 10%;
+    top: 0%;
+    left: 0%;
     box-sizing: border-box;
 }
 
 /* to move the letters and social logos*/
 #navigation > ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 0;
-    padding: 10px;
-    list-style: none;
-    text-align: center;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+
+}
+
+#navigation ul li {
+float: right;
 }
 
 #navigation ul li a {
     display: block;
-    padding: 0 30px;
-    text-decoration: none;
+    padding: 8px;
 }
 
-#navigation ul li a img {
-    width: 20px;
+#navigation ul li div li a{
+    float: right;
 }
 
 #navigation ul li a:hover {
     display: block;
-    background: #C9012F;
-    color: white;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
+
+#navigation ul li {
+    border-right: #C9012F; 
+}
+
 
 #homelogo a {
     width: 120px;
@@ -84,8 +89,8 @@ body {
 #content {
     background-color: #5c5c5c;
     margin: 0 auto;
-    width: 100%;
-    padding: 10% 10% 10% 10%;
+    width: 30%;
+    padding: 15% 15% 15% 15%;
 }
 
 
@@ -96,3 +101,4 @@ body {
     align-items: center;
     justify-content: center;
 }
+
