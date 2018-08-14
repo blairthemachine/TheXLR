@@ -25,12 +25,13 @@ body {
 /* move nav bar*/
 #navigation  {
     position: sticky;
-    background-color: rgba(17, 14, 14, 0.959);
+    background-color: rgba(46, 2, 2, 0.795);
     font-family: 'Russo One', sans-serif;
-    transition: .5s;
-    top: 0%;
-    left: 0%;
+    text-align: center;
     box-sizing: border-box;
+    position: fixed;
+    top: 10px;
+    width: 100%;
 }
 
 /* to move the letters and social logos*/
@@ -48,11 +49,8 @@ float: right;
 
 #navigation ul li a {
     display: block;
-    padding: 8px;
-}
-
-#navigation ul li div li a{
-    float: right;
+    text-align: center;
+    padding: 30px 90px;
 }
 
 #navigation ul li a:hover {
