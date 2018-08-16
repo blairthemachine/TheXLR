@@ -30,7 +30,7 @@ body {
     text-align: center;
     box-sizing: border-box;
     position: fixed;
-    top: 40px;
+    top: 69px;
     width: 100%;
 }
 
@@ -38,7 +38,7 @@ body {
 #navigation > ul {
 list-style-type: none;
 margin: 0;
-padding: 0;
+padding: 25px;
 overflow: hidden;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -51,7 +51,7 @@ float: right;
 #navigation ul li a {
     display: block;
     text-align: center;
-    padding: 30px 90px;
+    padding: 80px 60p;
 }
 
 #navigation ul li a:hover {
@@ -70,7 +70,7 @@ float: right;
 
 
 #homelogo a img{
-    height: 30px;
+    height: 53px;
     position: fixed;
 }
 
@@ -143,7 +143,7 @@ body {
 .column {
     float: left;
     width: 30%;
-    padding: 15px;
+    padding: 125px;
 }
 
 /* Clear floats after the columns */
@@ -158,9 +158,14 @@ body {
 @media screen and (max-width:600px) {
     .column {
         width: 100%;
+        border: #333;
     }
 }
 
 .fa-instagram{
     color: #f2f2f2;
+}
+
+#container { 
+    top: 60%;
 }
